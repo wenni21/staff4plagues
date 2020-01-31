@@ -1,0 +1,41 @@
+{
+  "name": "fatasseric",
+  "description": "truckchain webapp",
+  "version": "1.0.0",
+  "author": "necrophiliaccannibal <necrophiliaccannibal@zoho.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "amap": "^1.0.7",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^1.2.0",
+    "es6-promise": "^4.2.5",
+    "popper.js": "^1.12.9",
+    "vue": "^2.5.3",
+    "vue-amap": "^0.5.8",
+    "vue-router": "^3.0.2",
+    "vue-sessionstorage": "^1.0.0",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
